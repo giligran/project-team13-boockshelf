@@ -5,66 +5,73 @@
     <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/assets/logo-0fa18760.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookchelf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/index-09ab4add.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-c13f4d70.css">
+    <script type="module" crossorigin src="/vanilla-app-template/assets/index-ecb58d45.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/styles-ee14eca9.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-81d92078.css">
   </head>
   <body>
     <div class="header-container">
-    <div class="table-block">
-      <div class="block-logo">
-        <a href="./index.html">
-          <svg class="logo-icon" width="24" height="24">
-            <use class="icon-svg" href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-logo"></use>
-          </svg>
-          <svg class="logo-title" width="77" height="14">
-            <use
-              class="icon-title-svg"
-              href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-Bookshelf"
-            ></use>
-          </svg>
-        </a>
-      </div>
-      <div class="table-menu">
-        <a href="./index.html" class="home-link active">HOME</a>
-        <a href="./index.html" class="shop-link"
-          >SHOPING LIST<svg class="heder-shop-icon" width="20" height="20">
-            <use
-              class="shop-icon-svg"
-              href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-uil_cart"
-            ></use>
-          </svg>
-        </a>
-      </div>
+  <div class="table-block">
+    <div class="block-logo">
+      <a href="./index.html">
+        <svg class="logo-icon" width="24" height="24">
+          <use class="icon-svg" href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-logo"></use>
+        </svg>
+        <svg class="logo-title" width="77" height="14">
+          <use
+            class="icon-title-svg"
+            href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-Bookshelf"
+          ></use>
+        </svg>
+      </a>
     </div>
-    <div class="right-conteiner">
-      <div class="block-menu">
-        <button type="button" id="switch">
-          <label class="switch">
-            <input class="checkbox" type="checkbox" />
-            <span class="slider round"></span>
-          </label>
-        </button>
-        <button type="button" class="mobile-menu-btn" id="mob-menu-open">
-          <svg class="menu-icon" width="28" height="28">
-            <use
-              class="icon-menu-svg"
-              href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-align-left"
-            ></use>
-          </svg>
-        </button>
-      </div>
-      <button class="heder-modal-login user-info">
-        <!-- <div class="user-photo"></div> -->
-        <p class="user-name">sign up</p>
-        <svg class="arow-down" width="23" height="26">
-          <use href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-arrow-narrow-right"></use>
+    <div class="table-menu">
+      <a href="./index.html" class="home-link active">HOME</a>
+      <a href="shopping.html" class="shop-link"
+        >SHOPING LIST<svg class="heder-shop-icon" width="20" height="20">
+          <use
+            class="shop-icon-svg"
+            href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-uil_cart"
+          ></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="right-conteiner">
+    <div class="block-menu">
+      <button type="button" id="switch">
+        <label class="switch">
+          <input class="checkbox" type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </button>
+      <button type="button" class="mobile-menu-btn" id="mob-menu-open">
+        <svg class="menu-icon" width="28" height="28">
+          <use
+            class="icon-menu-svg"
+            href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-align-left"
+          ></use>
         </svg>
       </button>
     </div>
+    <button class="heder-modal-login user-info">
+      <!-- <div class="user-photo"></div> -->
+      <p class="user-name">sign up</p>
+      <svg class="arow-down" width="23" height="26">
+        <use href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-arrow-narrow-right"></use>
+      </svg>
+    </button>
   </div>
-  
-  <div class="backdrop visually-hidden" id="authorization">
+</div>
+
+<div class="backdrop visually-hidden" id="authorization">
   <div class="modal-authorization">
     <button type="button" class="modal-authorization-close">
       <svg width="28" height="28" class="modal-authorization-icon">
@@ -110,6 +117,7 @@
     </div>
   </div>
 </div>
+
 
 
     <section>
