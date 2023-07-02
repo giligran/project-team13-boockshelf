@@ -5,11 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookchelf</title>
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/index-e8054d71.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-b0d0f9c7.css">
+    <script type="module" crossorigin src="/vanilla-app-template/assets/index-173bfbaf.js"></script>
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-e68923b5.css">
   </head>
   <body>
-    ENOENT: no such file or directory, open '/home/runner/work/project-team13-boockshelf/project-team13-boockshelf/src/partials/header.html'
+    <div class="header-container">
+    <div class="table-block">
+      <div class="block-logo">
+        <a href="./index.html">
+          <svg class="logo-icon" width="24" height="24">
+            <use class="icon-svg" href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-logo"></use>
+          </svg>
+          <svg class="logo-title" width="77" height="14">
+            <use
+              class="icon-title-svg"
+              href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-Bookshelf"
+            ></use>
+          </svg>
+        </a>
+      </div>
+      <div class="table-menu">
+        <a href="./index.html" class="home-link active">HOME</a>
+        <a href="/shopping.html" class="shop-link"
+          >SHOPING LIST<svg class="heder-shop-icon" width="20" height="20">
+            <use
+              class="shop-icon-svg"
+              href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-uil_cart"
+            ></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="right-conteiner">
+      <div class="block-menu">
+        <button type="button" id="switch">
+          <label class="switch">
+            <input class="checkbox" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </button>
+        <button type="button" class="mobile-menu-btn" id="mob-menu-open">
+          <svg class="menu-icon" width="28" height="28">
+            <use
+              class="icon-menu-svg"
+              href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-align-left"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <button class="heder-modal-login user-info">
+        <!-- <div class="user-photo"></div> -->
+        <p class="user-name">sign up</p>
+        <svg class="arow-down" width="23" height="26">
+          <use href="/vanilla-app-template/assets/header-fe1d4ca2.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
 
     <section>
       <h1>Lorem ipsum dolor sit amet.</h1>
